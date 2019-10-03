@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragment.GoToActivity"
+    android:orientation="vertical">
+
+    <ImageView
+        android:id="@+id/gotoImg"
+        android:layout_width="match_parent"
+        android:layout_height="280dp"
+        tools:layout_editor_absoluteX="-2dp"></ImageView>
+
+    <TextView
+        android:id="@+id/gotoText1"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="250dp"
+        android:gravity="center"
+        android:textSize="30dp"
+        android:fontFamily="@font/asset">
+    </TextView>
+
+    <TextView
+        android:id="@+id/gotoText2"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="350dp"
+        android:gravity="center"
+        android:textSize="30dp"
+        android:fontFamily="@font/asset">
+    </TextView>
+
+    <TextView
+        android:id="@+id/gotoText3"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="466dp"
+        android:gravity="center"
+        android:textSize="30dp">
+    </TextView>
+
+    <TextView
+        android:id="@+id/gotoText4"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="539dp"
+        android:gravity="center"
+        android:textSize="30dp">
+    </TextView>
+
+</LinearLayout>
